@@ -31,4 +31,15 @@ public class MyNumber {
         }
         return sum;
     }
+
+    public int sumOfDivisors() {
+        int sum = 0;
+        for (int i=2; i<= number-1; i++){
+            if( number%i == 0) {
+                sum = sum + i;
+            }
+        }
+        return sum;
+
+    }
 }
