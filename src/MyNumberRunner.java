@@ -1,6 +1,6 @@
 public class MyNumberRunner {
     public static void main(String[] args) {
-        MyNumber number = new MyNumber(6);
+        MyNumber number = new MyNumber(5);
         Boolean isPrime = number.isPrime();
         System.out.println("isPrime " + isPrime);
 
@@ -9,5 +9,7 @@ public class MyNumberRunner {
         int sumOfDivisors = number.sumOfDivisors();
         System.out.println("sumOfDivisors" + sumOfDivisors);
 
+
+        number.printNumberTriangle();
     }
 }
